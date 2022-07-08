@@ -1,0 +1,30 @@
+uuid: 94b47c16-6b0c-4504-812e-09238807709e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.autos_2.field_descripcon_auto
+    - field.field.node.autos_2.field_imagen_auto
+    - field.field.node.autos_2.field_marca2
+    - field.field.node.autos_2.field_nombre_auto
+    - field.field.node.autos_2.layout_builder__layout
+    - node.type.autos_2
+  module:
+    - user
+id: node.autos_2.teaser
+targetEntityType: node
+bundle: autos_2
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_descripcon_auto: true
+  field_imagen_auto: true
+  field_marca2: true
+  field_nombre_auto: true
+  layout_builder__layout: true

@@ -1,0 +1,8 @@
+uuid: 952a3d8e-90c7-45dd-b2ff-5c6184775b11
+langcode: en
+status: true
+dependencies: {  }
+name: Asignatura
+vid: asignatura
+description: 'Cursos academicos'
+weight: 0

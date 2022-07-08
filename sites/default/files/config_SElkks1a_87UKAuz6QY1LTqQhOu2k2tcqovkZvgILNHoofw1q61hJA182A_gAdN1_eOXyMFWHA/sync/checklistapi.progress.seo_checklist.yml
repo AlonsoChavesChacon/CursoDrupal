@@ -1,0 +1,14 @@
+progress:
+  '#changed': 1654562883
+  '#changed_by': '1'
+  '#completed_items': 3
+  '#items':
+    install_and_enable_seo_checklist_module:
+      '#completed': 1654562883
+      '#uid': '1'
+    install_and_enable_coffee_module:
+      '#completed': 1654562883
+      '#uid': '1'
+    install_and_enable_admin_toolbar_module:
+      '#completed': 1654562883
+      '#uid': '1'

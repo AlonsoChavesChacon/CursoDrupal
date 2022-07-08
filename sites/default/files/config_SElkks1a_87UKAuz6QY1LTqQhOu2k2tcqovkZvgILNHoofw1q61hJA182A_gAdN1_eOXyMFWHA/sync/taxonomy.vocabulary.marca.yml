@@ -1,0 +1,8 @@
+uuid: 780928a4-f3a2-42ca-b336-17e1bf40798c
+langcode: en
+status: true
+dependencies: {  }
+name: Marca
+vid: marca
+description: 'Marca de auto'
+weight: 0

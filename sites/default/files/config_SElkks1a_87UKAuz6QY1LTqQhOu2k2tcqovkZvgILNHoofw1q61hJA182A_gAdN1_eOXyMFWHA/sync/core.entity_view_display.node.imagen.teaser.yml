@@ -1,0 +1,22 @@
+uuid: b0ea5ee7-e081-4a79-8123-18346c4e4ea6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.imagen.field_img
+    - node.type.imagen
+  module:
+    - user
+id: node.imagen.teaser
+targetEntityType: node
+bundle: imagen
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_img: true

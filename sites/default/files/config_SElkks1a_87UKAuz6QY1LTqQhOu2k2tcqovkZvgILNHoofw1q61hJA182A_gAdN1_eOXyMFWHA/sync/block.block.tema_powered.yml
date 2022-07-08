@@ -1,0 +1,26 @@
+uuid: 35074fa1-6851-407f-ab4a-54416bd86964
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tema
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: tema_powered
+theme: tema
+region: footer
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /libros

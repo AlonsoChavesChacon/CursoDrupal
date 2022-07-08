@@ -1,0 +1,28 @@
+uuid: b1cce43f-7080-4d86-87c2-2b0aafc44d2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.informacion_acerca_de.field_acerca
+    - node.type.informacion_acerca_de
+  module:
+    - text
+    - user
+id: node.informacion_acerca_de.default
+targetEntityType: node
+bundle: informacion_acerca_de
+mode: default
+content:
+  field_acerca:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

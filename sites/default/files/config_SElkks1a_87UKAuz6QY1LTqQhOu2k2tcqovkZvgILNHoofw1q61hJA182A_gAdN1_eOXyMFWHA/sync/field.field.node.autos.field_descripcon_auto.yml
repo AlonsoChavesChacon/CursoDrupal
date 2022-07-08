@@ -1,0 +1,23 @@
+uuid: 63262228-558f-4ca7-92a9-4f6de0126f26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcon_auto
+    - node.type.autos
+  module:
+    - text
+id: node.autos.field_descripcon_auto
+field_name: field_descripcon_auto
+entity_type: node
+bundle: autos
+label: Descripcion
+description: 'Descripción del auto'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,17 @@
+uuid: 71acedb1-dd32-40c5-bd8f-fd9b7a613bca
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Imagen
+type: imagen
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

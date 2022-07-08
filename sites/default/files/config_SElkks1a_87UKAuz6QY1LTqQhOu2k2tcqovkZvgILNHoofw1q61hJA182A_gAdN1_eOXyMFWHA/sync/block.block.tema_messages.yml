@@ -1,0 +1,22 @@
+uuid: c5955dc2-f972-4633-9b48-0988e7a5c3aa
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - tema
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: tema_messages
+theme: tema
+region: branding
+weight: -9
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

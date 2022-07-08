@@ -1,0 +1,21 @@
+uuid: 4464f54c-5b90-4c4a-abc7-29662a243a5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_acerca
+    - node.type.informacion_acerca_de
+  module:
+    - text
+id: node.informacion_acerca_de.field_acerca
+field_name: field_acerca
+entity_type: node
+bundle: informacion_acerca_de
+label: Acerca
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

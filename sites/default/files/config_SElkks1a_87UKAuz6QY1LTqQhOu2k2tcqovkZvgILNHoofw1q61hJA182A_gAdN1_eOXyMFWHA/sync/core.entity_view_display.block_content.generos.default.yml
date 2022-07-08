@@ -1,0 +1,21 @@
+uuid: f190486d-a90c-44c2-8e3f-9bc6aaff71ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.generos
+    - field.field.block_content.generos.field_generos_tag
+id: block_content.generos.default
+targetEntityType: block_content
+bundle: generos
+mode: default
+content:
+  field_generos_tag:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

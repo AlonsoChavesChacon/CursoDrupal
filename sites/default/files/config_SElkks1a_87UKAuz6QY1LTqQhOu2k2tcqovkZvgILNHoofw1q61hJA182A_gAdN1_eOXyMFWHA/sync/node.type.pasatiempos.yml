@@ -1,0 +1,18 @@
+uuid: 8e070625-c03e-422d-bf6c-7423c47f1902
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - portafolio
+    parent: 'portafolio:menu_link_content:c850f4ea-89f5-401b-96c7-e2fa5352cb54'
+name: Pasatiempos
+type: pasatiempos
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

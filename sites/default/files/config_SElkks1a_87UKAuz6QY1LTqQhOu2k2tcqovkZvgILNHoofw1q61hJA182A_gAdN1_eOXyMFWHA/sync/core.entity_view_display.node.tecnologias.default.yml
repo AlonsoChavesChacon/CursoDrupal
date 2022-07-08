@@ -1,0 +1,30 @@
+uuid: 207e9e62-4a05-4309-bf94-674ab59018aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tecnologias.field_tecnologias
+    - node.type.tecnologias
+  module:
+    - image
+    - user
+id: node.tecnologias.default
+targetEntityType: node
+bundle: tecnologias
+mode: default
+content:
+  field_tecnologias:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

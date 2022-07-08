@@ -1,0 +1,25 @@
+uuid: 1b452383-f81a-4877-9aac-95e5010a694f
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:generos:04280df0-2067-4d3f-b02b-82341cee6fd1'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: generosdepeliculas
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'block_content:04280df0-2067-4d3f-b02b-82341cee6fd1'
+settings:
+  id: 'block_content:04280df0-2067-4d3f-b02b-82341cee6fd1'
+  label: 'Generos de peliculas'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

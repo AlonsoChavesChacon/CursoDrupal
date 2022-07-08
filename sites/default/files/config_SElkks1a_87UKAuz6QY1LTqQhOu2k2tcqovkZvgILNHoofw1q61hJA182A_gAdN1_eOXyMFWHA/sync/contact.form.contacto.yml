@@ -1,0 +1,12 @@
+uuid: 075c5b2a-f621-40ef-a86b-760d63e3d622
+langcode: en
+status: true
+dependencies: {  }
+id: contacto
+label: Contacto
+recipients:
+  - chaconalonso11@gmail.com
+reply: ''
+weight: 0
+message: 'Enviado con exito'
+redirect: /node

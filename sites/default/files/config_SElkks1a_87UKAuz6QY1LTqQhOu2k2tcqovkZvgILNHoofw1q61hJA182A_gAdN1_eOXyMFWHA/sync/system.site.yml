@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 82c2dab8-e735-4a75-9bbb-f8340008c476
+name: 'Brand Name'
+mail: chaconalonso11@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

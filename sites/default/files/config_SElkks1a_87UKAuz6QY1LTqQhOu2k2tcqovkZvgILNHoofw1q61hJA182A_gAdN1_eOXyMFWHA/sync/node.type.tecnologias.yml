@@ -1,0 +1,18 @@
+uuid: 55a546dc-6851-41ec-b316-8f0d0b31d406
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - portafolio
+    parent: 'portafolio:menu_link_content:18386226-0d41-4caf-9fba-66e44d17a104'
+name: Tecnologías
+type: tecnologias
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

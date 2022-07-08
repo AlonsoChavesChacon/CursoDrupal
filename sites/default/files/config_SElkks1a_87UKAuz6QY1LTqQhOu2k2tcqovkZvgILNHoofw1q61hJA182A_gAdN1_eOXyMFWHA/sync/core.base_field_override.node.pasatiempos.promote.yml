@@ -1,0 +1,22 @@
+uuid: 4a97c500-0bdb-4df9-994a-7f68bff27923
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pasatiempos
+id: node.pasatiempos.promote
+field_name: promote
+entity_type: node
+bundle: pasatiempos
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

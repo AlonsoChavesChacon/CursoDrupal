@@ -1,0 +1,18 @@
+uuid: 6fc91f62-7a62-49ca-9c6c-1bc74395f2f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.libro
+id: node.libro.title
+field_name: title
+entity_type: node
+bundle: libro
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

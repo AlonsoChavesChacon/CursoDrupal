@@ -1,0 +1,23 @@
+uuid: fe9b6438-3d9f-4980-a86b-67d8964b70f4
+langcode: en
+status: true
+dependencies: {  }
+name: grande
+label: GRANDE
+effects:
+  d0d2806f-f5a3-4383-ab0a-ca263b06dd39:
+    uuid: d0d2806f-f5a3-4383-ab0a-ca263b06dd39
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: 800
+      upscale: true
+  2b0093c9-0810-4376-870e-019e1ffe068d:
+    uuid: 2b0093c9-0810-4376-870e-019e1ffe068d
+    id: image_rotate
+    weight: 2
+    data:
+      degrees: 180
+      bgcolor: ''
+      random: true

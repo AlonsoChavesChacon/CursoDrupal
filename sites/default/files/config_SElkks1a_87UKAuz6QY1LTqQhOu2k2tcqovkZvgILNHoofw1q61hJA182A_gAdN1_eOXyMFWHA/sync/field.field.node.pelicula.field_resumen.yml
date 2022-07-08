@@ -1,0 +1,23 @@
+uuid: c7be726b-3de5-413a-b79b-16f8ecef45eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resumen
+    - node.type.pelicula
+  module:
+    - text
+id: node.pelicula.field_resumen
+field_name: field_resumen
+entity_type: node
+bundle: pelicula
+label: Resumen
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

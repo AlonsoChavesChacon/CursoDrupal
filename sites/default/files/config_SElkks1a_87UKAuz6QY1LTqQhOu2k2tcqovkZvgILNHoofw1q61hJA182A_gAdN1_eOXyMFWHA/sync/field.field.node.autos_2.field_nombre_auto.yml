@@ -1,0 +1,21 @@
+uuid: fcf7c618-ad6c-4852-956a-f2f4d7c55538
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nombre_auto
+    - node.type.autos_2
+  module:
+    - text
+id: node.autos_2.field_nombre_auto
+field_name: field_nombre_auto
+entity_type: node
+bundle: autos_2
+label: Nombre_auto_2
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

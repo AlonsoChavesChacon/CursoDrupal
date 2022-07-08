@@ -1,0 +1,8 @@
+uuid: 811df65d-c25f-4002-9d9e-ea0547210a6a
+langcode: en
+status: true
+dependencies: {  }
+name: Genero
+vid: genero
+description: 'Generos de peliculas'
+weight: 0

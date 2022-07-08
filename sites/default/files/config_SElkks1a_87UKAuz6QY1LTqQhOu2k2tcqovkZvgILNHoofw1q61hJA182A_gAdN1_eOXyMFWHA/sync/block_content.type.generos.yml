@@ -1,0 +1,8 @@
+uuid: 61badccc-b3a3-4bc3-9477-341eab933167
+langcode: en
+status: true
+dependencies: {  }
+id: generos
+label: Generos
+revision: 0
+description: 'Generos de pelicula'

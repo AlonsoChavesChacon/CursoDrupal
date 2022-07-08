@@ -1,0 +1,39 @@
+uuid: 7965f2ae-b985-4975-baad-da9be51120bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.generos
+    - field.storage.block_content.field_generos_tag
+    - taxonomy.vocabulary.genero
+  content:
+    - 'taxonomy_term:genero:7befcc8b-d26c-4076-89bf-4f58fb9d889f'
+    - 'taxonomy_term:genero:afc240d8-7107-4eaa-b446-ffe5f893493b'
+    - 'taxonomy_term:genero:dd896f27-2a85-48b7-817d-6e59c5e26f80'
+id: block_content.generos.field_generos_tag
+field_name: field_generos_tag
+entity_type: block_content
+bundle: generos
+label: Generos-tags
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 7befcc8b-d26c-4076-89bf-4f58fb9d889f
+  -
+    target_uuid: dd896f27-2a85-48b7-817d-6e59c5e26f80
+  -
+    target_uuid: afc240d8-7107-4eaa-b446-ffe5f893493b
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      genero: genero
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: genero
+field_type: entity_reference

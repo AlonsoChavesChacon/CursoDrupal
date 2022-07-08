@@ -1,0 +1,46 @@
+uuid: 29042424-a325-45dd-9b7a-afd089ec3014
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.libro.field_autor
+    - field.field.node.libro.field_descripcion
+    - field.field.node.libro.field_genero
+    - field.field.node.libro.field_imgn
+    - node.type.libro
+  module:
+    - image
+    - user
+id: node.libro.default
+targetEntityType: node
+bundle: libro
+mode: default
+content:
+  field_autor:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_genero:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_imgn:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  field_descripcion: true
+  links: true

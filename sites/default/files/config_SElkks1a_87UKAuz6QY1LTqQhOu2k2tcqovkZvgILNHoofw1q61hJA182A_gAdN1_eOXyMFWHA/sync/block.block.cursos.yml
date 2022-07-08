@@ -1,0 +1,30 @@
+uuid: aac95201-36ee-4bdb-8523-c3347a424600
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4fcb1838-4327-4ba3-939c-e9651834b7cc'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: cursos
+theme: bartik
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'block_content:4fcb1838-4327-4ba3-939c-e9651834b7cc'
+settings:
+  id: 'block_content:4fcb1838-4327-4ba3-939c-e9651834b7cc'
+  label: Cursos
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /cursos

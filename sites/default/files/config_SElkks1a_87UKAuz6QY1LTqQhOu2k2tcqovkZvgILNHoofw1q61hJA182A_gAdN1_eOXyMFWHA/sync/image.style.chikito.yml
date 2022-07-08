@@ -1,0 +1,25 @@
+uuid: dec0f29c-1a85-4fb4-a8d9-24d37071445d
+langcode: en
+status: true
+dependencies: {  }
+name: chikito
+label: Chikito
+effects:
+  02186ebe-5992-41c3-bc77-772b2439a668:
+    uuid: 02186ebe-5992-41c3-bc77-772b2439a668
+    id: image_resize
+    weight: 1
+    data:
+      width: 200
+      height: 200
+  3eceecad-5780-48da-8c16-146f26acdbf9:
+    uuid: 3eceecad-5780-48da-8c16-146f26acdbf9
+    id: image_convert
+    weight: 2
+    data:
+      extension: png
+  6a3d4c9f-c0ac-4766-ac98-b49e67ce77ef:
+    uuid: 6a3d4c9f-c0ac-4766-ac98-b49e67ce77ef
+    id: image_desaturate
+    weight: 3
+    data: {  }
