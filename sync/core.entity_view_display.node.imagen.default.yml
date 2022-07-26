@@ -1,0 +1,32 @@
+uuid: 875a7ce7-c8de-41f2-8f9b-192482503f5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.imagen.field_img
+    - node.type.imagen
+    - responsive_image.styles.img
+  module:
+    - responsive_image
+    - user
+id: node.imagen.default
+targetEntityType: node
+bundle: imagen
+mode: default
+content:
+  field_img:
+    type: responsive_image
+    label: above
+    settings:
+      responsive_image_style: img
+      image_link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

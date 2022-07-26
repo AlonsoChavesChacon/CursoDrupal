@@ -1,0 +1,23 @@
+uuid: a5e580cf-ab70-468c-8e66-17d5abc1bedd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_high
+    - node.type.highlight_second
+  module:
+    - text
+id: node.highlight_second.field_text_high
+field_name: field_text_high
+entity_type: node
+bundle: highlight_second
+label: text_high
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

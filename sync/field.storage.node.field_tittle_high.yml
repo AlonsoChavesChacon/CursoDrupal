@@ -1,0 +1,21 @@
+uuid: 2a62acb0-4f38-4f64-8b6a-2a9360662686
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_tittle_high
+field_name: field_tittle_high
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

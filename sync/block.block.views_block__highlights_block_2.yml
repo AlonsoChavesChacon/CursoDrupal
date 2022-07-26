@@ -1,0 +1,24 @@
+uuid: 207be454-91f7-4a70-aa92-8fce2de38a66
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.highlights
+  module:
+    - views
+  theme:
+    - tema
+id: views_block__highlights_block_2
+theme: tema
+region: highlight_second
+weight: 0
+provider: null
+plugin: 'views_block:highlights-block_2'
+settings:
+  id: 'views_block:highlights-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

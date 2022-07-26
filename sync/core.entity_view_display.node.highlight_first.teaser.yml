@@ -1,0 +1,27 @@
+uuid: e3eec568-0d83-484a-b336-da75b6329671
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.highlight_first.field_img_high
+    - field.field.node.highlight_first.field_text_high
+    - field.field.node.highlight_first.field_tittle_high
+    - node.type.highlight_first
+  module:
+    - user
+id: node.highlight_first.teaser
+targetEntityType: node
+bundle: highlight_first
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_img_high: true
+  field_text_high: true
+  field_tittle_high: true
+  langcode: true

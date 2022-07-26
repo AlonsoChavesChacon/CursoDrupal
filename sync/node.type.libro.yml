@@ -1,0 +1,17 @@
+uuid: e8ad53f9-7dc5-4030-a48e-8bfcea6d6089
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Libro
+type: libro
+description: Libro
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

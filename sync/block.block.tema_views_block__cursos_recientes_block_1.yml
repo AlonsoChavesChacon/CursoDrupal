@@ -1,0 +1,29 @@
+uuid: c544e5e3-be49-48f1-991b-5aa3b6ce1124
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cursos_recientes
+  module:
+    - system
+    - views
+  theme:
+    - tema
+id: tema_views_block__cursos_recientes_block_1
+theme: tema
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'views_block:cursos_recientes-block_1'
+settings:
+  id: 'views_block:cursos_recientes-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<cursos>'

@@ -1,0 +1,25 @@
+uuid: 21bbb4fe-bf66-4019-babe-2f071d309a23
+langcode: es
+status: true
+dependencies:
+  module:
+    - random_pokemon
+    - system
+  theme:
+    - tema
+id: randomfoodblock
+theme: tema
+region: content
+weight: -7
+provider: null
+plugin: random_food_block
+settings:
+  id: random_food_block
+  label: 'Random Cats '
+  label_display: visible
+  provider: random_pokemon
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

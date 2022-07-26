@@ -1,0 +1,20 @@
+uuid: d68a4c6a-8519-4870-8b95-27a9f39cc3a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - tema
+id: languageswitcher
+theme: tema
+region: secondary_menu
+weight: -14
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 4e742d1a-d2e3-4928-b1ae-935f090e567b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b619b1fd-49cf-4576-865b-a7e79c25dd2f'
+  module:
+    - block_content
+  theme:
+    - tema
+id: jumbotron
+theme: tema
+region: jumbotrom
+weight: -13
+provider: null
+plugin: 'block_content:b619b1fd-49cf-4576-865b-a7e79c25dd2f'
+settings:
+  id: 'block_content:b619b1fd-49cf-4576-865b-a7e79c25dd2f'
+  label: Jumbotron
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

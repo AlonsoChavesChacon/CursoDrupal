@@ -1,0 +1,17 @@
+uuid: cf41e21e-d598-4745-bbdf-bc7f9fe046b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'highlight second'
+type: highlight_second
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

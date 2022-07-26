@@ -1,0 +1,22 @@
+uuid: 1754c3bd-02b4-484d-8589-ff62d91c2d71
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.autos
+id: node.autos.promote
+field_name: promote
+entity_type: node
+bundle: autos
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

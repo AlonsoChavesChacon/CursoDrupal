@@ -1,0 +1,23 @@
+uuid: 1685ae22-951f-49fb-8ad8-ff94bf153b4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_del_proyecto
+    - node.type.acerca_del_proyecto
+  module:
+    - text
+id: node.acerca_del_proyecto.field_descripcion_del_proyecto
+field_name: field_descripcion_del_proyecto
+entity_type: node
+bundle: acerca_del_proyecto
+label: 'About Project'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

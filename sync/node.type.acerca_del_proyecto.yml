@@ -1,0 +1,17 @@
+uuid: f5e3e4fb-8d47-47b3-b2ef-6b7eddefc635
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'About Project'
+type: acerca_del_proyecto
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

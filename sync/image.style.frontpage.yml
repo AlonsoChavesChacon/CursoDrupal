@@ -1,0 +1,22 @@
+uuid: e9f5f26e-35a1-406d-9217-1893f0c9c362
+langcode: en
+status: true
+dependencies: {  }
+name: frontpage
+label: Frontpage
+effects:
+  12e8b42f-1f74-48ed-8085-d78c0ecb2ec7:
+    uuid: 12e8b42f-1f74-48ed-8085-d78c0ecb2ec7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 300
+      anchor: center-center
+  e0122a55-79ef-4f65-8d5b-7a4e9015d753:
+    uuid: e0122a55-79ef-4f65-8d5b-7a4e9015d753
+    id: image_resize
+    weight: 2
+    data:
+      width: 500
+      height: 300

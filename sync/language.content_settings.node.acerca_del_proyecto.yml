@@ -1,0 +1,16 @@
+uuid: 970213ea-382d-4870-b5cf-e7ca3ec044ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.acerca_del_proyecto
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.acerca_del_proyecto
+target_entity_type_id: node
+target_bundle: acerca_del_proyecto
+default_langcode: es
+language_alterable: true

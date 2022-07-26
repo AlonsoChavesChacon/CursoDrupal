@@ -1,0 +1,17 @@
+uuid: c48e03a4-518e-49fb-b0cd-9052e8a499c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'highlight first'
+type: highlight_first
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

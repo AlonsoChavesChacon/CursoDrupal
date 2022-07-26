@@ -1,0 +1,23 @@
+uuid: 2c73bde3-06ea-41e3-9171-c00ed8a4842a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.acerca_del_proyecto.field_descripcion_del_proyecto
+    - node.type.acerca_del_proyecto
+  module:
+    - user
+id: node.acerca_del_proyecto.teaser
+targetEntityType: node
+bundle: acerca_del_proyecto
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_descripcion_del_proyecto: true
+  langcode: true

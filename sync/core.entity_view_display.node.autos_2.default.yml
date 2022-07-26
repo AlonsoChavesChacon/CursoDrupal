@@ -1,0 +1,146 @@
+uuid: e4a74e66-4de7-4f03-ae32-ffa02bed3730
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.autos_2.field_descripcon_auto
+    - field.field.node.autos_2.field_imagen_auto
+    - field.field.node.autos_2.field_marca2
+    - field.field.node.autos_2.field_nombre_auto
+    - field.field.node.autos_2.layout_builder__layout
+    - node.type.autos_2
+  module:
+    - image
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: Col_auto_2
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          5500308f-0a86-44e1-85c0-2ff15e555413:
+            uuid: 5500308f-0a86-44e1-85c0-2ff15e555413
+            region: first
+            configuration:
+              id: 'field_block:node:autos_2:field_imagen_auto'
+              label: Imagen_auto2
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: frontpage
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          02f82962-6b34-4ec1-a44d-61e7e1f00908:
+            uuid: 02f82962-6b34-4ec1-a44d-61e7e1f00908
+            region: second
+            configuration:
+              id: 'field_block:node:autos_2:field_descripcon_auto'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: -9
+            additional: {  }
+          171d2435-8371-44d4-92b4-9bc2f87b1fc1:
+            uuid: 171d2435-8371-44d4-92b4-9bc2f87b1fc1
+            region: second
+            configuration:
+              id: 'field_block:node:autos_2:field_nombre_auto'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: -10
+            additional: {  }
+          82f906b2-ec2c-48c7-8667-041528e87ad3:
+            uuid: 82f906b2-ec2c-48c7-8667-041528e87ad3
+            region: first
+            configuration:
+              id: 'field_block:node:autos_2:field_marca2'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components: {  }
+        third_party_settings: {  }
+id: node.autos_2.default
+targetEntityType: node
+bundle: autos_2
+mode: default
+content:
+  field_descripcon_auto:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_imagen_auto:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_marca2:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: first
+  field_nombre_auto:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  layout_builder__layout: true

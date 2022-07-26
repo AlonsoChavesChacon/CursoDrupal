@@ -1,0 +1,35 @@
+uuid: 4efd7b81-164a-4e5e-bd47-77c57584ab5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pelicula.field_imagen
+    - field.field.node.pelicula.field_resumen
+    - image.style.chikito
+    - node.type.pelicula
+  module:
+    - image
+    - user
+id: node.pelicula.teaser
+targetEntityType: node
+bundle: pelicula
+mode: teaser
+content:
+  field_imagen:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: chikito
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_resumen: true
+  langcode: true

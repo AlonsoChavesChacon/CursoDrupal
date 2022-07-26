@@ -1,0 +1,29 @@
+uuid: 49e0ec2f-2d3b-4c90-8b29-7f89493d795d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.acerca_del_proyecto.field_descripcion_del_proyecto
+    - node.type.acerca_del_proyecto
+  module:
+    - text
+    - user
+id: node.acerca_del_proyecto.default
+targetEntityType: node
+bundle: acerca_del_proyecto
+mode: default
+content:
+  field_descripcion_del_proyecto:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

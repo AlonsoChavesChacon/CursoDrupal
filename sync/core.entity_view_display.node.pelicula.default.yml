@@ -1,0 +1,40 @@
+uuid: 0c5a8791-d022-4f22-9da3-965f30554ad2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pelicula.field_imagen
+    - field.field.node.pelicula.field_resumen
+    - node.type.pelicula
+  module:
+    - image
+    - text
+    - user
+id: node.pelicula.default
+targetEntityType: node
+bundle: pelicula
+mode: default
+content:
+  field_imagen:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_resumen:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

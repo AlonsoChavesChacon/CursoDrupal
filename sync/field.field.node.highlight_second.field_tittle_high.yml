@@ -1,0 +1,19 @@
+uuid: a2ab7156-7da8-438e-be72-4c4e29ae782e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tittle_high
+    - node.type.highlight_second
+id: node.highlight_second.field_tittle_high
+field_name: field_tittle_high
+entity_type: node
+bundle: highlight_second
+label: tittle_high
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,49 @@
+uuid: 6cd0bdbe-c06b-4d2a-a7a8-7d9351f6c504
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.highlight_first.field_img_high
+    - field.field.node.highlight_first.field_text_high
+    - field.field.node.highlight_first.field_tittle_high
+    - node.type.highlight_first
+  module:
+    - image
+    - text
+    - user
+id: node.highlight_first.default
+targetEntityType: node
+bundle: highlight_first
+mode: default
+content:
+  field_img_high:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_text_high:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_tittle_high:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
